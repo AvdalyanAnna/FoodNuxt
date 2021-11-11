@@ -1,0 +1,33 @@
+.features {
+  &-inner {
+    text-align: center;
+  }
+
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 44px 0;
+  }
+
+  &-item {
+    padding: 0 15px;
+
+    .icon {
+      max-width: 88px;
+      width: 100%;
+      height: 88px;
+      margin: 0 auto 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba($green, 0.1)
+    }
+
+    .description {
+      margin-top: 15px;
+      line-height: 24px;
+
+    }
+  }
+}

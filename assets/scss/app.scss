@@ -1,0 +1,23 @@
+// global
+@import "global/_default";
+@import "global/_fonts";
+
+// blocks default
+@import "blocks/default/sections";
+@import "blocks/default/link";
+@import "blocks/default/btn";
+@import "blocks/default/title";
+@import "blocks/default/subTitle";
+@import "blocks/default/description";
+
+// layouts
+@import "layouts/body";
+@import "layouts/main";
+@import "layouts/header";
+@import "layouts/footer";
+
+// blocks
+@import "blocks/logo";
+@import "blocks/home";
+@import "blocks/features";
+@import "blocks/aboutUs";

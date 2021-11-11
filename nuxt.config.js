@@ -18,17 +18,15 @@ export default {
 
   styleResources: {
     scss: [
-      '~/assets/scss/_colors.scss',
-      '~/assets/scss/_default.scss',
-      '~/assets/scss/_fonts.scss',
-      '~/assets/scss/_mixin.scss',
+      '~/assets/scss/global/_colors.scss',
+      '~/assets/scss/global/_mixin.scss',
 
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/assets/scss/main.scss'
+    '~/assets/scss/app.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -46,11 +44,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/style-resources',
-    '@nuxtjs/svg-sprite',
   ],
-  svgSprite: {
-    input: '~/assets/img/icons-svg'
-  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },

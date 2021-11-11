@@ -1,0 +1,26 @@
+.btn {
+  border: 1px solid $orange;
+  background: $orange;
+  color: $white;
+  height: 44px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: inherit;
+  cursor: pointer;
+  outline: none;
+
+  &-orange {
+    border: 1px solid rgba($orange,0.1);
+    color: $orange;
+    background: $white;
+  }
+}
+
+.home-btn .btn {
+  height: 60px;
+  padding: 10px 40px;
+
+  &:nth-child(1) {
+    margin-right: 20px;
+  }
+}
